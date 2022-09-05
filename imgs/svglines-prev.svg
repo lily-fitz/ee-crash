@@ -1,0 +1,76 @@
+<svg className="lines"  xmlns="http://www.w3.org/2000/svg"  width="1671" height="780" viewBox="0 0 1671 780" fill="none">
+
+ <line id="lines1" x1="75.0084" y1="494" x2="313.008" y2="495" stroke="#36DBFF" stroke-width="4" />
+      <line id="lines2" x1="0.00840329" y1="2.000002" x2="238.008" y2="3.00002" stroke="#36DBFF" stroke-width="4" />
+      <path id="line1" d="M56.5 2L56.5 126L56.5 316" stroke="#36DBFF" stroke-width="4" />
+      <line id="line2" x1="367" y1="0.994805" x2="369" y2="770.995" stroke="#36DBFF" stroke-width="4" />
+      <line id="line3" x1="364.994" y1="647" x2="0.994466" y2="645.986" stroke="#36DBFF" stroke-width="4" />
+      <line id="line4" x1="59" y1="459.994" x2="60" y2="770.994" stroke="#36DBFF" stroke-width="4" />
+      <line id="line5" x1="368.007" y1="282" x2="673.007" y2="283" stroke="#3CE5FC" stroke-width="4" />
+      <path id="line6" d="M366.999 493.5L715.001 493.491" stroke="#3CE5FC" stroke-width="4" />
+      <path id="line7" d="M714.5 5.99604L714.5 772L714.5 634L1026 634" stroke="#36DBFF" stroke-width="4" />
+      <line id="line8" x1="58" y1="132" x2="367" y2="132" stroke="#3CE5FC" stroke-width="4" />
+      <path
+        id="line9"
+        d="M1026.46 771.003L1027.58 4.99998L1027.38 143L715.88 142.543"
+        stroke="#36DBFF"
+        stroke-width="4"
+      />
+      <line id="line10" x1="1352.99" y1="503" x2="1025.99" y2="502" stroke="#3CE5FC" stroke-width="4" />
+      <line id="line11" x1="1027.01" y1="289" x2="1332.01" y2="290" stroke="#3CE5FC" stroke-width="4" />
+      <line id="line12" x1="1667" y1="9.99481" x2="1669" y2="779.995" stroke="#36DBFF" stroke-width="4" />
+      <path
+        id="line13"
+        d="M1352.81 440.056L1351.06 766.559L1352.12 707.9L1655.53 708.897"
+        stroke="#36DBFF"
+        stroke-width="4"
+      />
+      <path id="line14" d="M1667.44 124L1353.44 124L1353.44 12" stroke="#3CE5FC" stroke-width="4" />
+      <path id="line15" d="M1353.5 126L1354.5 351" stroke="#3CE5FC" stroke-width="4" />
+      <line id="line16" x1="790.008" y1="634" x2="1028.01" y2="635" stroke="#36DBFF" stroke-width="4"/>
+<line  id="line17" x1="715.008" y1="142" x2="953.008" y2="143" stroke="#36DBFF" stroke-width="4"/>
+
+      <style type="text/css">
+        @keyframes dash {
+            0% {
+                stroke-dashoffset: 2000;
+                opacity: 0;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+            }
+
+            #line1,
+            #line2,
+            #line3,
+            #line4,
+            #line5,
+            #line6,
+            #line7,
+            #line8,
+            #line9,
+            #line10,
+            #line11,
+            #line12,
+            #line13,
+            #line14,
+            #line15,
+            #line16,
+            #line17 {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 400;
+            animation: dash 5s ease-out forwards infinite;
+            animation-delay: 3s;
+            z-index: 2;
+            opacity: 1
+            }
+
+            .lines {
+  position: absolute;
+  left: 64.5px;
+  top: 99.5px;
+}
+    </style>
+
+    </svg>

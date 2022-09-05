@@ -1,0 +1,57 @@
+
+
+    <svg
+        className="lines1"
+        xmlns="http://www.w3.org/2000/svg" 
+        width="314"
+        height="497"
+        viewBox="0 0 314 497"
+        fill="none"
+      >
+        <line
+          id="lines1"
+          x1="75.0084"
+          y1="494"
+          x2="313.008"
+          y2="495"
+          stroke="#36DBFF"
+          stroke-width="4"
+        />
+        <line
+          id="lines2"
+          x1="0.00840329"
+          y1="2.000002"
+          x2="238.008"
+          y2="3.00002"
+          stroke="#36DBFF"
+          stroke-width="4"
+        />
+
+
+        <style type="text/css">
+            @keyframes dash1 {
+                0% {
+                    stroke-dashoffset: 2000;
+                    opacity: 0;
+                }
+                100% {
+                    stroke-dashoffset: 0;
+                }
+                }
+
+                #lines1,
+                #lines2 {
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 400;
+                animation: dash1 3s linear forwards;
+                z-index: 3;
+                }
+
+                .lines1 {
+                position: absolute;
+                left: 779px;
+                top: 240px;
+                }
+
+            </style>
+      </svg>
